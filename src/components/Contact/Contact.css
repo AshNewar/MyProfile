@@ -1,0 +1,51 @@
+.contact{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact-1{
+    padding: 1rem;
+    border: 3px solid gray;
+    border-radius: 10px;
+    width: 25rem;
+    /* overflow:; */
+}
+@media screen and (max-width: 440px){
+    .contact-1{
+    width: 17rem;
+
+    }
+    
+}
+label{
+    font-family: "Poppins","sans-serif";
+
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1vh;
+}
+.contact-item input ,textarea{
+    border: 2px solid gray;
+    padding: .8rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.contact-btn{
+    margin: .3rem 1rem;
+    padding:.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+.contact-animation{
+    width: 23rem;
+}
+.contact-2{
+    display: flex;
+    justify-content: center;
+}

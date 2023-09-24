@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.Header{
+    position: relative;
+    top: 0;
+}
+.nav-padding{
+    padding: 2rem 4rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:.5rem;
+
+    
+}
+.text-placeholder {
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    flex: 1;
+  }
+.menuBar{
+    display: none;
+}
+.link{
+    color: rgb(67, 65, 65);
+    padding: .4rem .8rem;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.link:hover{
+    background-color: rgb(199, 195, 195);
+}
+.menu2{
+    display: none;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    z-index: 2;
+    background-image:linear-gradient(rgb(154, 156, 156),rgb(229, 231, 231));
+    border-radius: 3rem 1rem 3rem 1rem;
+}
+.nav-button{
+    border: none;
+    color: black;
+}
+
+@media screen and (max-width:1100px) {
+    
+    
+}
+
+@media screen and (max-width:1000px) {
+    .menuBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links{
+        display: none;
+    }
+    .menuList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:1rem 2rem;
+        position: absolute;
+        top: 6rem;
+        right: 2rem;
+        gap: .6rem;
+    }
+    .nav-padding{
+        padding: 1rem 2rem;
+    }
+    
+
+
+    
+}
+
+@media screen and (max-width:900px){
+    .menuList{
+        top: 5rem;
+    }
+
+    
+}
+@media screen and (max-width:500px){
+    .nav-padding{
+        padding: 0;
+    }
+    
+}

@@ -1,0 +1,57 @@
+.project-image{
+    width: 260px;
+    height: 170px;
+    box-shadow: 10px 4px 10px gray;
+
+}
+.github-image{
+    width: 20px;
+    border-radius: 10px;
+}
+.project_card{
+    width:250px;
+    height: 380px;
+    border: 3px solid gray;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: pointer;
+
+
+}
+.project-image-container{
+    /* width: fit-content; */
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+  .project-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+.project-details{
+    padding:0 1rem;
+}
+.project-1{
+    display: flex;
+
+}
+.github-image{
+    position: absolute;
+    border: 3px solid white;  
+    background-color: white;
+
+
+}
+.github-image-container{
+    position: relative;
+    right: 30px;
+    top: 8px;
+    /* opacity: 1; */
+}
+.project-desc{
+    font-size: .6rem;
+}
