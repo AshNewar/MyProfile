@@ -7,7 +7,7 @@ import Service from './components/Services/Service';
 import Project from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import "./App.css"
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 import GoToTop from './components/About/GoToTop';
 
 const App = () => {

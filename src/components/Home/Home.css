@@ -29,9 +29,9 @@
     /* justify-content: flex-start; */
     align-items: center;
     gap: 10px;
-    animation: 
-    typing 3.5s steps(40, end), 
-    blink-caret .75s step-end infinite;
+    /* animation:  */
+    /* typing 3.5s steps(40, end),  */
+    /* blink-caret .75s step-end infinite; */
     white-space: nowrap; 
     margin: 0 auto;
     overflow: hidden;     

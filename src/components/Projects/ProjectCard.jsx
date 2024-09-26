@@ -7,11 +7,10 @@ import { Tilt } from "react-tilt";
 
 const ProjectCard = ({ title, desc, src, index }) => {
     return (
-        <Tilt>
-            <motion.div
+            <div
                 initial={{ opacity: 0, x: "-100%" }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ type: "spring", delay: index * 0.5 }}
+                transition={{ type: "spring",}}
                 className='project_card'>
                 <div className='project-1'>
                     <div className='project-image-container'>
@@ -29,9 +28,7 @@ const ProjectCard = ({ title, desc, src, index }) => {
 
                 </div>
 
-            </motion.div>
-
-        </Tilt>
+            </div>
 
     )
 }

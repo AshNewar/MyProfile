@@ -71,7 +71,7 @@ h2{
 
 }
 p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #746f6f;
     font-weight: bold;
     font-family: "Poppins","sans-serif";
@@ -103,5 +103,8 @@ p{
     }
     .content-title{
         font-size: 2rem;
+    }
+    .side-padding{
+        padding: 0 1rem;
     }
 }

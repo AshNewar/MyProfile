@@ -8,11 +8,31 @@
     grid-template-areas: 
     "about1 about2";
     align-items: center;
+    font-size: 0.8rem;
     
 }
-.about{
+.section2{
+    display: flex;
+    flex-direction: column;
 
 }
+.resume-btn {
+    padding: 10px 20px;
+    background-color: #505152;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-btn:hover {
+    background-color: #2d2d2e;
+  }
+  
 .about-image-container{
     display: flex;
     justify-content: center;

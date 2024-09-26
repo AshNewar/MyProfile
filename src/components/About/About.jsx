@@ -10,7 +10,7 @@ import { Sideward, Upward } from '../../Framer'
 
 
 const About = () => {
-    const AboutComment = "ll talk to you tomorrow in moand us in jail for the rest of our lives either. Are you willing to take the chance? Monroe asked his partner over the phone."
+    const AboutComment = "With hands-on experience in full-stack development, I’ve contributed to various impactful projects, including building real-time chat systems, developing scalable deployment pipelines, and optimizing platforms using cutting-edge technologies like Docker, Kubernetes, and Redis. I thrive on collaborating with teams to bring complex ideas to life. I’m currently seeking opportunities to work on innovative projects that will allow me to further develop my skills and contribute to the tech community."
     return (
         <div id="About" className="about section_padding section_margin">
             <div className="about-1">
@@ -31,11 +31,17 @@ const About = () => {
                         </div>
                     </section>
                 </div>
-                <div className="centered side-padding">
+                <div className="centered side-padding section2">
                     <motion.p {...Upward}>{AboutComment}</motion.p>
+                    <div className="download-resume">
+                        <a href="/resume.pdf" download>
+                            <button className="resume-btn">
+                            Download Resume
+                            </button>
+                        </a>
+                    </div>
                 </div>
-
-
+                
             </div>
             <div className="about-card ">
 
