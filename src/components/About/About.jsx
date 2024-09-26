@@ -21,25 +21,19 @@ const About = () => {
                 <div>
                     <section className="home-3 about-image-container">
                         <div>
-                            <motion.div drag
-                                dragConstraints={{
-                                    top: -5,
-                                    left: -5,
-                                    right: 5,
-                                    bottom: 5,
-                                }} className="about-image"></motion.div>
+                            <motion.div whileHover={{ scale: 1.3 }}  {...Sideward} className="about-image"></motion.div>
                         </div>
                     </section>
                 </div>
                 <div className="centered side-padding section2">
                     <motion.p {...Upward}>{AboutComment}</motion.p>
-                    <div className="download-resume">
+                    <motion.div whileHover={{ scale: 1.01 }} className="download-resume">
                         <a href="/resume.pdf" download>
                             <button className="resume-btn">
                             Download Resume
                             </button>
                         </a>
-                    </div>
+                    </motion.div>
                 </div>
                 
             </div>

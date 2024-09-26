@@ -35,18 +35,19 @@
   
 .about-image-container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    
 }
 .about-image{
-    width: 250px;
-    height: 250px;
-    background-image: url(../../assets/my.jpg);
+    width: 280px;
+    height: 280px;
+    background-image: url(../../assets/About.svg);
     background-repeat: no-repeat;
     background-size: cover  ;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* animation: profile_animate 8s ease-in-out infinite 1s; */
     /* border: 5px solid rgb(167, 165, 165); */
-    box-shadow: 0 4px 8px 8px rgb(231, 219, 219);
+    /* box-shadow: 0 4px 8px 8px rgb(231, 219, 219); */
 
 }
 .about-card{

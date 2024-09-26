@@ -11,7 +11,7 @@ import { Leftward, Sideward, Upward, textVariant, zoomIn } from "../../Framer";
 
 const Home = () => {
 
-    const HomeComment = "Hello! I’m Ashish Newar, a passionate and dedicated student currently pursuing my Bachelor's in Economics at IIT Kanpur. My journey in technology and software development has been fueled by a deep interest in problem-solving, innovation, and building scalable, efficient solutions."
+    const HomeComment = "Hello! I’m Ashish Newar, a passionate and dedicated student currently pursuing my Bachelor's Degree from IIT Kanpur. My journey in technology and software development has been fueled by a deep interest in problem-solving, innovation, and building scalable, efficient solutions."
 
     return (
         <div id="Home">
@@ -26,11 +26,11 @@ const Home = () => {
                                 <BsGithub size={24} />
                             </motion.div>
                             <motion.div whileHover={{ scale: 1.2 }} {...Leftward} custom={2}
-                             className="home-icons" onClick={() => window.open('https://github.com/AshNewar', '_blank')}>
+                             className="home-icons" onClick={() => window.open('https://www.instagram.com/asisnewar/', '_blank')}>
                                 <BsInstagram size={24} />
                             </motion.div>
-                            <motion.div whileHover={{ scale: 1.2 }} {...Leftward} custom={3} className="home-icons" onClick={() => window.open('https://github.com/AshNewar', '_blank')}><BsLinkedin size={24}  /></motion.div>
-                            <motion.div whileHover={{ scale: 1.2 }} {...Leftward} custom={4} className="home-icons" onClick={() => window.open('https://github.com/AshNewar', '_blank')}><SiLeetcode size={24} /></motion.div>
+                            <motion.div whileHover={{ scale: 1.2 }} {...Leftward} custom={3} className="home-icons" onClick={() => window.open('https://www.linkedin.com/in/ashish-newar-47753a262/', '_blank')}><BsLinkedin size={24}  /></motion.div>
+                            <motion.div whileHover={{ scale: 1.2 }} {...Leftward} custom={4} className="home-icons" onClick={() => window.open('https://leetcode.com/u/ASHISHNEWAR/', '_blank')}><SiLeetcode size={24} /></motion.div>
 
                         </div>
                     </section>

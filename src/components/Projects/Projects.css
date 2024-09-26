@@ -1,7 +1,7 @@
 .project-image{
     width: 260px;
     height: 170px;
-    box-shadow: 10px 4px 10px gray;
+    /* box-shadow: 10px 4px 10px gray; */
 
 }
 .github-image{
@@ -20,8 +20,8 @@
 
 }
 .project-image-container{
-    /* width: fit-content; */
-    border-radius: 20px;
+    display: flex;
+    border-radius: 10px;
     overflow: hidden;
 
 }
